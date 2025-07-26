@@ -1,0 +1,76 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://st3.depositphotos.com/8776626/33633/i/450/depositphotos_336333604-stock-photo-ornithorynque-ornithorhynchus-anatinus.jpg);
+
+color: rgba(50,255,255,86%)
+}
+
+form{
+  min-width: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1,p{
+  text-align: center;
+  font-family: sans;
+
+}
+
+label{
+  display: block;
+  margin-top: 15px;
+  font-family: italic;
+  
+}
+
+fieldset{
+  border: none;
+}
+
+
+.moved{
+  margin-right: -34px;
+}
+
+fieldset:last-of-type { 
+  border-bottom: none;
+}
+
+.hats{
+  margin-left: 30px;
+}
+
+.fancy{
+  margin-left: 47px;
+}
+
+.pant{
+  margin-right: 15px;
+}
+
+.tank{
+  margin-left: 129px;
+  margin-top: 30px;
+}
+
+#Submit{
+  width: 50%;
+  font-size: 34px;
+  border-color: burlywood
+}
+
+#title{
+  font-size: 54px;
+  font-family: sans-serif;
+  color: rgba(50,255,255,95%)
+}
+
+.tittle{
+  font-size: 34px;
+  font-family: sans-serif;
+  color: rgba(50,255,255,95%)
+}
+
