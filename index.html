@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+     <form method="Get" id="survey-form">
+        <h1 id="title">WHERE IS MERRY<h1>
+          <p id="description">have you seen merry the platypus?</p>
+          <fieldset>
+            <legend>basic info</legend>
+          <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="name here" required /> </label>
+          <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="email here" required />
+          </label>
+          <label for="number" id="number-label">how many time?: <input type="number" id="number" min="1" max="100" placeholder="how many time you saw merry">
+          </fieldset>
+          <fieldset>
+            <legend class="tittle">merry conditions (required)</legend>
+            <label for="location">
+            <select id="dropdown">
+              <option>select one</option>
+              <option>in space</option>
+              <option>on land</option>
+              <option>in the ocean</option>
+              <option>in the sky</option>
+              <option>underground</option>
+              </select>
+              where was merry?
+              <label for="live">
+                <input type="radio" value="live" name="status" checked />
+                alive?
+              </label>
+              <label for="gone">
+                <input type="radio" value="gone" name="status"/>
+                dead?
+              </label>
+               <label for="gone" class="moved">
+                <input type="radio" value="unknown" name="status" />
+                no idea?
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend class="tittle">what was he wearing?</legend>
+              <label>
+              <input type="checkbox" value="hat" class="hats" /> top hat
+              </label>
+              <label>
+               <input type="checkbox" value="eyeware" class="fancy" /> monocle
+              </label>
+              <label>
+               <input type="checkbox" value="pants" class="pant" /> tutu
+              </label>
+               <input type="checkbox" value="ride" class="tank" />M1A2 Abrams
+              <label>
+              </label>
+              </fieldset>
+              <fieldset>
+                <label class="info">
+                  extra info
+                   <textarea placeholder="anymore info?"></textarea>
+                   </label>
+              </fieldset>
+        <input type="submit" id="submit">
+      </body>
+  </html>
